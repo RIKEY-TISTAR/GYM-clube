@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className="__next ">
           <Header />
-          <main className="main w-full" id="main">
+          <main className="main w-full container mx-auto" id="main">
             <div className="w-full" id="mainPage">
               {children}
             </div>
