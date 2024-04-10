@@ -31,3 +31,28 @@ body {
     text-wrap: balance;
   }
 }
+
+/* /////////////// hero */
+
+.text-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 1000px;
+  width: 770px;
+}
+
+.hero-title{
+  text-align: center;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.hero-subtitle{
+  text-align: center;
+}
+
+.button-section{
+  display: flex;
+  justify-content: center;
+}
