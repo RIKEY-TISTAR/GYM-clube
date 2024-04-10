@@ -19,7 +19,7 @@ export const Hero = () => {
             <h2 className=" hero-title text-center text-white">Достигните своих целей в области здоровья и фитнеса в кратчайшие сроки</h2>
           </div>
 
-          <div className="hero-subtitle-section w-full mb-4">
+          <div className="hero-subtitle-section mb-6">
             <p className="hero-subtitle text-center text-white">
             Неважно, хотите ли вы стать сильнее,
             сжечь жир или просто оставаться в форме,

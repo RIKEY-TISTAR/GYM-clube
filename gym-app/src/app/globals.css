@@ -54,8 +54,14 @@ body {
   font-weight: 800;
 }
 
+.hero-subtitle-section{
+  display: flex;
+  justify-content: center;
+}
+
 .hero-subtitle{
   text-align: center;
+  width: 500px;
 }
 
 .button-section{
