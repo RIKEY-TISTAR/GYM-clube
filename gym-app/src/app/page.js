@@ -1,8 +1,14 @@
-import { Hero } from "@/components/Hero/Hero";
-import Image from "next/image";
+import { Hero } from '@/components/Hero/Hero'
+import { Variants } from '@/components/Variants/Variants'
+import React from 'react'
 
-export default function Home() {
+const page = () => {
   return (
-   <Hero></Hero>
-  );
+    <>
+    <Hero/>
+    <Variants/>
+    </>
+  )
 }
+
+export default page

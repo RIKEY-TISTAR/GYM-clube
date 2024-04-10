@@ -18,6 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  background-color: #1a1a1a;
   /* background: linear-gradient(
       to bottom,
       transparent,
@@ -55,4 +56,44 @@ body {
 .button-section{
   display: flex;
   justify-content: center;
+}
+
+/* /////////////// Variants */
+
+.variants{
+  /* background-color: grey; */
+
+}
+
+.variants-inner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  height: 600px;
+}
+
+.variants-title-section{
+  width: 600px;
+}
+
+.variants-title{
+  text-align: center;
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+.variants-btn-section{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.variants-img{
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  background-size: cover;
 }
