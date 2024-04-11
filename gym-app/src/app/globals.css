@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/*DISPLAY FLEX STAFF:  flex flex-col justify-center items-center  */
+/*BOREDR STAFF: rounded-2xl border-2 border-green-500 */
+/*TEXT STAFF: text-center text-5xl font-bold */
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -13,6 +17,8 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+
+    --accent-color-rgb: 126, 202, 135;
   }
 }
 
@@ -47,58 +53,31 @@ body {
 
 
 .hero-inner{
-  height: 1300px;
+  border: 1px solid rgb(126, 202, 135);
+  height: 800px;
 }
 
 .text-section{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   height: 1000px;
-  width: 770px;
-}
-
-.hero-title{
-  text-align: center;
-  font-size: 60px;
-  font-weight: 800;
-}
-
-.hero-subtitle-section{
-  display: flex;
-  justify-content: center;
+  width:  770px;
 }
 
 .hero-subtitle{
-  text-align: center;
   width: 500px;
 }
 
-.button-section{
-  display: flex;
-  justify-content: center;
+.hero-img{
+  background-size: contain;
+  width: 1920px;
+  height: 800px;
 }
-
-/* .hero-img{
-  background-size: cover;
-  width: 100%;
-  height: 100px;
-} */
 
 /* /////////////// Variants */
 
-.variants{
-  /* background-color: grey; */
-
-}
 
 .variants-inner{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: auto;
-  height: 600px;
+  border: 1px solid rgb(126, 202, 135);
+  height: 800px;
   /* margin: 50px 0px; */
 }
 
@@ -106,55 +85,32 @@ body {
   width: 600px;
 }
 
-.variants-title{
-  text-align: center;
-  font-size: 45px;
-  font-weight: 800;
-  margin-bottom: 50px;
-}
-
-.variants-btn-section{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-}
-
 .variants-img{
-  border-radius: 15px;
-  width: 300px;
+  border-radius: 150px;
+  width:  300px;
   height: 300px;
   background-size: cover;
 }
 
-/* /////////////// Shot */
-
-.shot-text-section{
-  margin: 0 30px;
+.variants-btn-section{
+  height: 500px;
 }
 
+/* /////////////// Shot */
+
+
+
 .shot-inner{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border: 1px solid rgb(126, 202, 135);
   height: 800px;
+  /* border: 1px solid rgb(126, 202, 135); */
   /* margin: 200px 0px; */
   /* margin-bottom: 300px; */
 }
 
-.shot-top-section{
-  margin-bottom: 40px;
-}
-
-.shot-top{
-  border-radius: 50px;
-  padding: 10px 15px;
-  display: inline ;
-  border: 1px solid rgb(126, 202, 135);
-}
 
 .shot-title-section{
   width: 600px;
-  margin-bottom: 40px;
 }
 
 .shot-img{
@@ -163,35 +119,17 @@ body {
   height: 800px;
 }
 
-.shot-chek-section{
-  display: flex;
-  height: 50px;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 15px;
-}
-
 .shot-chek-img{
   width:  25px;
   height: 25px;
 }
 
-.shot-chek-subtitle{
-  font-size: 20px
-}
 
 /* /////////////// timetible */
 
 .timetable-inner{
-  height: 120px;
   border: 1px solid rgb(126, 202, 135);
-  border-radius: 15px;
-  /* background-color: black; */
-}
-
-.timetable-title{
-  font-size: 50px;
-  font-weight: 800;
+  background-color: #5F7252;
 }
 
 .timetable-work-icon-img{
@@ -201,33 +139,27 @@ body {
 
 /* /////////////// stock */
 
-.stock-title{
-  font-size: 30px;
-  font-weight: 800;
-}
-
-.stock-subtitle{
-  font-size: 20px;
-  font-weight: 600;
-}
-
 .stock-inner{
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* border: 1px solid rgb(126, 202, 135);
+  border-radius: 15px; */
   border: 1px solid rgb(126, 202, 135);
-  border-radius: 15px;
-}
-
-.stock-item{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+  background-color: #5F7252;
 }
 
 .stock-icon-img{
   width: 50px;
   height: 50px;
+}
+
+/* ///////////////////////////////// CARD */
+
+.price-card {
+  height: 450px;
+  width: 400px;
+}
+
+/* ///////////////////////////////// price */
+
+.price{
+  border: 1px solid rgb(126, 202, 135);
 }

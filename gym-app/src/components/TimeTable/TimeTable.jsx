@@ -5,13 +5,13 @@ import TimeTableweekends from '/public/assets/images/time-table/rest.png';
 
 export const TimeTable = () => {
     return (
-        <section className='timetable'>
+        <section className='timetable my-28'>
 
             <div className="container mx-auto">
 
-                <div className="timetable-inner">
+                <div className="timetable-inner h-32 flex flex-col justify-center items-center ">
 
-                    <h2 className="timetable-title text-center">
+                    <h2 className="timetable-title text-center text-5xl font-bold">
                         Расписание
                     </h2>
 

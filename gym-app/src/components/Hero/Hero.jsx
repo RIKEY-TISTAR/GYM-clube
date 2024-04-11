@@ -6,29 +6,28 @@ export const Hero = () => {
   return (
     <section className='hero'>
 
-      <div className="hero-inner relative w-full">
+      <div className="hero-inner relative w-full flex justify-center items-center ">
 
-        <div className="object-cover absolute mix-blend-owerlay -z-10">
+        <div className="hero-img-section object-cover absolute mix-blend-owerlay -z-10">
           <Image width={1920} height={1080} className='hero-img w-full' src={Heroimg} alt="-_-" />
         </div>
-        {/* <img className='w-full h-full object-cover absolute mix-blend-owerlay' src="/public/assets/images/Hero/BG.jpg" alt="" /> */}
 
-        <div className="text-section container mx-auto w-full ">
+        <div className="text-section container mx-auto w-full flex flex-col justify-center items-center">
 
           <div className="hero-title-section full mb-4">
-            <h2 className=" hero-title text-center text-white">Достигните своих целей в области здоровья и фитнеса в кратчайшие сроки</h2>
+            <h2 className=" hero-title text-center text-6xl font-bold text-white">Достигните своих целей в области здоровья и фитнеса в кратчайшие сроки</h2>
           </div>
 
           <div className="hero-subtitle-section mb-6">
-            <p className="hero-subtitle text-center text-white">
+            <p className="hero-subtitle text-white text-center">
             Неважно, хотите ли вы стать сильнее,
             сжечь жир или просто оставаться в форме,
             наши тренеры мирового класса будут сопровождать вас на каждом этапе пути.
             </p>
           </div>
 
-          <div className="button-section">
-            <button className='hero-btn bg-yellow-300 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded-full'>Начать 7-дневную бесплатную пробную версию</button>
+          <div className="button-section flex justify-center">
+            <button className='hero-btn bg-yellow-300 hover:bg-yellow-700 hover:text-white text-black font-bold py-2 px-4 rounded-full'>Начать 7-дневную бесплатную пробную версию</button>
           </div>
 
         </div>

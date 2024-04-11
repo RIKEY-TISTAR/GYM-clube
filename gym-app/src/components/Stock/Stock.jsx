@@ -7,18 +7,18 @@ export const Stock = () => {
         <section className='stock my-28'>
             <div className="container mx-auto">
 
-                <div className="stock-inner">
+                <div className="stock-inner h-32 flex justify-center items-center ">
 
                     <div className="stock-text"> 
 
-                        <h4 className="stock-title text-center">
+                        <h4 className="stock-title text-center text-3xl font-bold ">
                             Акция!
                         </h4>
 
-                        <div className="stock-item">
+                        <div className="stock-item flex justify-center items-center gap-4">
                             <Image width={1920} height={1080} className='stock-icon-img w-full' src={TimeTablework} alt="-_-" />
 
-                            <p className="stock-subtitle">
+                            <p className="stock-subtitle text-xl font-medium">
                                 Преведи друга и получи абанемент на три месяца бесплатно
                             </p>
 
