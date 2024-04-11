@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className="hero-inner relative w-full">
 
         <div className="object-cover absolute mix-blend-owerlay -z-10">
-          <Image width={1920} height={1080} className='w-full' src={Heroimg} alt="-_-" />
+          <Image width={1920} height={1080} className='hero-img w-full' src={Heroimg} alt="-_-" />
         </div>
         {/* <img className='w-full h-full object-cover absolute mix-blend-owerlay' src="/public/assets/images/Hero/BG.jpg" alt="" /> */}
 

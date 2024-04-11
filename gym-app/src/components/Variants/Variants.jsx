@@ -31,7 +31,7 @@ export const Variants = () => {
                         </a>
                     </div> */}
 
-                    <div className="variants-btn-section">
+                    <div className="variants-btn-section mb-20">
 
                         <div className=" max-w-sm rounded overflow-hidden shadow-lg">
                             <Image width={1920} height={1080} className='variants-img w-full' src={VariantsGymGuy2} alt="-_-" />

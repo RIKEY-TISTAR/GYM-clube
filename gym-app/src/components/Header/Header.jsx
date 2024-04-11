@@ -40,10 +40,11 @@ export const Header = () => {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-                    <a href="#" className=" text-gray-300 hover:text-white rounded-md px-3 py-2 text-mb font-medium" aria-current="page">Dashboard</a>
-                    <a href="#" className="text-gray-300 hover:text-white rounded-md px-3 py-2 text-mb font-medium">Team</a>
-                    <a href="#" className="text-gray-300 hover:text-white rounded-md px-3 py-2 text-mb font-medium">Projects</a>
-                    <a href="#" className="text-gray-300 hover:text-white rounded-md px-3 py-2 text-mb font-medium">Calendar</a>
+                    {/* <a href="#" className=" text-gray-300 hover:text-white rounded-md px-3 py-2 text-mb font-medium" aria-current="page">Dashboard</a> */}
+                    <a href="#" className="text-gray-300 hover:text-white rounded-md px-3 py-2 text-mb font-medium">Акции</a>
+                    <a href="#" className="text-gray-300 hover:text-white rounded-md px-3 py-2 text-mb font-medium">Тренера</a>
+                    <a href="#" className="text-gray-300 hover:text-white rounded-md px-3 py-2 text-mb font-medium">Виды тренеровок</a>
+                    <a href="#" className="text-gray-300 hover:text-white rounded-md px-3 py-2 text-mb font-medium">Расписание</a>
                   </div>
                 </div>
               </div>

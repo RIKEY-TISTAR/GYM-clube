@@ -10,7 +10,7 @@ const page = () => {
   return (
     <>
     <Hero/>
-    {/* <Stock/> */}
+    <Stock/>
     <Variants/>
     <ShotRight/>
     <ShotLeft/>

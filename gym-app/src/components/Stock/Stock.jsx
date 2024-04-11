@@ -1,27 +1,38 @@
 import React from 'react'
+import Image from 'next/image';
+import TimeTablework from '/public/assets/images/time-table/dumbbell.png';
 
 export const Stock = () => {
     return (
-        <section className='stock'>
+        <section className='stock my-28'>
             <div className="container mx-auto">
 
                 <div className="stock-inner">
 
-                    <div className="stock-text">
+                    <div className="stock-text"> 
+
                         <h4 className="stock-title text-center">
                             Акция!
                         </h4>
 
-                        <p className="stock-subtitle">
-                            Преведи друга и получи абанемент на 3м бесплатно
-                        </p>
+                        <div className="stock-item">
+                            <Image width={1920} height={1080} className='stock-icon-img w-full' src={TimeTablework} alt="-_-" />
+
+                            <p className="stock-subtitle">
+                                Преведи друга и получи абанемент на три месяца бесплатно
+                            </p>
+
+                            <Image width={1920} height={1080} className='stock-icon-img w-full' src={TimeTablework} alt="-_-" />
+                        </div>
+
+
                     </div>
 
                     <div className="stock-time">
 
-                        <p className="stock-time-title">
+                        {/* <p className="stock-time-title">
                             До конца акции осталось
-                        </p>
+                        </p> */}
 
                         {/* <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
                             <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
