@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <section className='hero'>
 
-      <div className="bg relative w-full">
+      <div className="hero-inner relative w-full">
 
         <div className="object-cover absolute mix-blend-owerlay -z-10">
           <Image width={1920} height={1080} className='w-full' src={Heroimg} alt="-_-" />

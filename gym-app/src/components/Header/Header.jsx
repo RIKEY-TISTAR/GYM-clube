@@ -3,9 +3,9 @@ import React from 'react'
 export const Header = () => {
   return (
     <header className='header'>
-      <div className="container mx-auto w-full absolute z-10">
+      <div className="container mx-auto">
 
-        <nav className="bg-transparent">
+        <nav className="bg-transparent w-full absolute z-10">
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
 

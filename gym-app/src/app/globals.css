@@ -16,6 +16,10 @@
   }
 }
 
+*{
+  color: white;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #1a1a1a;
@@ -25,6 +29,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
+    overflow-x: hidden;
 }
 
 @layer utilities {
@@ -39,6 +44,11 @@ body {
 }
 
 /* /////////////// hero */
+
+
+.hero-inner{
+  height: 1300px;
+}
 
 .text-section{
   display: flex;
@@ -83,7 +93,7 @@ body {
   flex-direction: column;
   height: auto;
   height: 600px;
-  margin: 50px 0px;
+  /* margin: 50px 0px; */
 }
 
 .variants-title-section{
