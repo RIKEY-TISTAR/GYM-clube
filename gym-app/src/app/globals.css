@@ -4,7 +4,9 @@
 
 /*DISPLAY FLEX STAFF:  flex flex-col justify-center items-center  */
 /*BOREDR STAFF: rounded-2xl border-2 border-green-500 */
+
 /*TEXT STAFF: text-center text-5xl font-bold */
+/* text-2xl sm:text4xl md:text-5xl lg:text-5xl */
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -23,6 +25,9 @@
 }
 
 *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   color: white;
 }
 
@@ -54,22 +59,27 @@ body {
 
 .hero-inner{
   border: 1px solid rgb(126, 202, 135);
-  height: 800px;
+  height: auto;
 }
 
 .text-section{
-  height: 1000px;
-  width:  770px;
+  /* height: 1000px; */
+  /* width:  770px; */
 }
 
-.hero-subtitle{
+/* .hero-subtitle{
   width: 500px;
+} */
+
+.hero-img-section{
+  height: 100%;
 }
 
 .hero-img{
-  background-size: contain;
-  width: 1920px;
-  height: 800px;
+  /* background-size: contain; */
+  object-fit: cover;
+  /* width: 100%; */
+  height: 100%;
 }
 
 /* /////////////// Variants */
@@ -77,7 +87,7 @@ body {
 
 .variants-inner{
   border: 1px solid rgb(126, 202, 135);
-  height: 800px;
+  height: auto;
   /* margin: 50px 0px; */
 }
 
@@ -93,7 +103,8 @@ body {
 }
 
 .variants-btn-section{
-  height: 500px;
+  height: auto;
+  border: 1px solid rgb(126, 202, 135);
 }
 
 /* /////////////// Shot */
@@ -102,21 +113,27 @@ body {
 
 .shot-inner{
   border: 1px solid rgb(126, 202, 135);
-  height: 800px;
+  height: auto;
   /* border: 1px solid rgb(126, 202, 135); */
   /* margin: 200px 0px; */
   /* margin-bottom: 300px; */
 }
 
 
-.shot-title-section{
+/* .shot-title-section{
   width: 600px;
-}
+} */
 
 .shot-img{
+  border: 1px solid rgb(126, 202, 135);
   border-radius: 15px;
   width: 600px;
-  height: 800px;
+  height: 600px;
+  object-fit: cover;
+
+  @media (min-width: 768px) {
+    height: 800px;
+  }
 }
 
 .shot-chek-img{
@@ -126,10 +143,12 @@ body {
 
 
 /* /////////////// timetible */
-
+.timetable{
+  background-color: #5F7252;
+}
 .timetable-inner{
   border: 1px solid rgb(126, 202, 135);
-  background-color: #5F7252;
+
 }
 
 .timetable-work-icon-img{
@@ -139,11 +158,14 @@ body {
 
 /* /////////////// stock */
 
+.stock{
+  background-color: #5F7252;
+}
+
 .stock-inner{
   /* border: 1px solid rgb(126, 202, 135);
   border-radius: 15px; */
   border: 1px solid rgb(126, 202, 135);
-  background-color: #5F7252;
 }
 
 .stock-icon-img{
@@ -155,7 +177,7 @@ body {
 
 .price-card {
   height: 450px;
-  width: 400px;
+  /* width: 400px; */
 }
 
 /* ///////////////////////////////// price */

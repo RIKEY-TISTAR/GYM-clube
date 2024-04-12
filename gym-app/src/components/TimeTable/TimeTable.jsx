@@ -9,9 +9,9 @@ export const TimeTable = () => {
 
             <div className="container mx-auto">
 
-                <div className="timetable-inner h-32 flex flex-col justify-center items-center ">
+                <div className="timetable-inner flex flex-col justify-center items-center py-5">
 
-                    <h2 className="timetable-title text-center text-5xl font-bold">
+                    <h2 className="timetable-title text-center text-2xl sm:text-3xl md:text-3xl lg:text-3xl font-bold">
                         Расписание
                     </h2>
 
@@ -24,7 +24,7 @@ export const TimeTable = () => {
                             </div> */}
 
                             <div className="timetable-work-desc-section p-2">
-                                <p className="timetable-work-desc text-center">
+                                <p className="timetable-work-desc text-center text-base sm:text-lg md:text-lg lg:text-xl">
                                     В буднии дни мы работаем с 6:00 до 18:00 вы также можете лично договоится с тренером на счет личных тренировочных сессий.
                                 </p>
                             </div>
