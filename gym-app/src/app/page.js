@@ -1,3 +1,4 @@
+import { Form } from '@/components/Form/Form'
 import { Hero } from '@/components/Hero/Hero'
 import { Price } from '@/components/Price/Price'
 import { ShotLeft } from '@/components/ShotLeft/ShotLeft'
@@ -17,6 +18,7 @@ const page = () => {
     <ShotLeft/>
     <TimeTable/>
     <Price/>
+    <Form/>
     </>
   )
 }

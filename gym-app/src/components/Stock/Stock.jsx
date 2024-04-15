@@ -4,7 +4,7 @@ import TimeTablework from '/public/assets/images/time-table/dumbbell.png';
 
 export const Stock = () => {
     return (
-        <section className='stock my-28'>
+        <section className='stock my-28' id='first-link'>
             <div className="container mx-auto">
 
                 <div className="stock-inner flex justify-center items-center py-5">

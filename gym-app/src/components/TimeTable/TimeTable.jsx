@@ -5,7 +5,7 @@ import TimeTableweekends from '/public/assets/images/time-table/rest.png';
 
 export const TimeTable = () => {
     return (
-        <section className='timetable my-28'>
+        <section className='timetable my-28' id='thour-link'>
 
             <div className="container mx-auto">
 

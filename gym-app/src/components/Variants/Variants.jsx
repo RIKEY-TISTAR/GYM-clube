@@ -5,7 +5,7 @@ import VariantsGymGuy2 from '/public/assets/images/variants/gym-2.jpg';
 
 export const Variants = () => {
     return (
-        <section className='variants'>
+        <section className='variants' id='two-link'>
             <div className="container mx-auto ">
 
                 <div className="variants-inner flex flex-col justify-center items-center">
@@ -20,13 +20,13 @@ export const Variants = () => {
 
                         <div className="variants-card max-w-sm overflow-hidden shadow-lg rounded-2xl border-2 border-green-500">
 
-                            <div className="variants-img-section flex justify-center">
+                            <div className="variants-img-section flex justify-center py-5">
                                 <Image width={1920} height={1080} className='variants-img w-full' src={VariantsGymGuy1} alt="-_-" />
                             </div>
                             
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                                <p className="text-white text-base">
+                                <div className="font-bold text-xl">The Coldest Sunset</div>
+                                <p className="text-white text-base py-5">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                                 </p>
                             </div>
@@ -41,13 +41,13 @@ export const Variants = () => {
 
                         <div className="variants-card max-w-sm overflow-hidden shadow-lg rounded-2xl border-2 border-green-500">
 
-                            <div className="variants-img-section flex justify-center">
+                            <div className="variants-img-section flex justify-center py-5">
                                 <Image width={1920} height={1080} className='variants-img w-full' src={VariantsGymGuy1} alt="-_-" />
                             </div>
                             
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                                <p className="text-white text-base">
+                                <div className="font-bold text-xl">The Coldest Sunset</div>
+                                <p className="text-white text-base py-5">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                                 </p>
                             </div>
@@ -60,15 +60,15 @@ export const Variants = () => {
 
                         </div>
 
-                        <div className="variants-card max-w-sm overflow-hidden shadow-lg rounded-2xl border-2 border-green-500">
+                         <div className="variants-card max-w-sm overflow-hidden shadow-lg rounded-2xl border-2 border-green-500">
 
-                            <div className="variants-img-section flex justify-center">
+                            <div className="variants-img-section flex justify-center py-5">
                                 <Image width={1920} height={1080} className='variants-img w-full' src={VariantsGymGuy1} alt="-_-" />
                             </div>
                             
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                                <p className="text-white text-base">
+                                <div className="font-bold text-xl">The Coldest Sunset</div>
+                                <p className="text-white text-base py-5">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                                 </p>
                             </div>
@@ -81,15 +81,15 @@ export const Variants = () => {
 
                         </div>
 
-                        <div className="variants-card max-w-sm overflow-hidden shadow-lg rounded-2xl border-2 border-green-500">
+                         <div className="variants-card max-w-sm overflow-hidden shadow-lg rounded-2xl border-2 border-green-500">
 
-                            <div className="variants-img-section flex justify-center">
+                            <div className="variants-img-section flex justify-center py-5">
                                 <Image width={1920} height={1080} className='variants-img w-full' src={VariantsGymGuy1} alt="-_-" />
                             </div>
                             
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                                <p className="text-white text-base">
+                                <div className="font-bold text-xl">The Coldest Sunset</div>
+                                <p className="text-white text-base py-5">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                                 </p>
                             </div>

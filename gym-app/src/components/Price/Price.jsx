@@ -5,7 +5,7 @@ import Check from '/public/assets/images/shot/check.png';
 export const Price = () => {
     return (
 
-        <div className="price my-28">
+        <div className="price my-28" id='five-link'>
 
             <div className="container mx-auto">
 
@@ -19,11 +19,11 @@ export const Price = () => {
 
                     <div className="price-card-section-inner grid md:grid-cols-1 xl:grid-cols-3 gap-10">
 
-                        <div className="price-card max-w-sm rounded-2xl overflow-hidden shadow-lg bg-neutral-900 border-2 border-green-500 px-6 flex flex-col justify-center">
+                        <div className="price-card max-w-sm rounded-2xl overflow-hidden shadow-lg bg-neutral-900 border-2 border-green-500 py-6 px-6 flex flex-col justify-center">
                             {/* <img className="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains"> */}
 
                             <div className="px-2">
-                                <h2 className="card-title text-center text-3xl sm:text4xl md:text-5xl lg:text-5xl font-bold mb-1 uppercase">НА 3 МЕСЯЦА</h2>
+                                <h2 className="card-title text-center text-3xl sm:text4xl md:text-5xl lg:text-5xl font-bold mb-1 uppercase pt-4">НА 3 МЕСЯЦА</h2>
                                 <p className="text-center uppercase text-3xl mb-10">
                                     1500р
                                 </p>
@@ -79,11 +79,11 @@ export const Price = () => {
 
                         </div>
 
-                        <div className="price-card max-w-sm rounded-2xl overflow-hidden shadow-lg bg-neutral-900 border-2 border-green-500 px-6 flex flex-col justify-center">
+                        <div className="price-card max-w-sm rounded-2xl overflow-hidden shadow-lg bg-neutral-900 border-2 border-green-500 py-6 px-6 flex flex-col justify-center">
                             {/* <img className="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains"> */}
 
                             <div className="px-2">
-                                <h2 className="card-title text-center text-3xl sm:text4xl md:text-5xl lg:text-5xl font-bold mb-1 uppercase">НА 3 МЕСЯЦА</h2>
+                                <h2 className="card-title text-center text-3xl sm:text4xl md:text-5xl lg:text-5xl font-bold mb-1 uppercase pt-4">НА 3 МЕСЯЦА</h2>
                                 <p className="text-center uppercase text-3xl mb-10">
                                     1500р
                                 </p>
@@ -139,11 +139,11 @@ export const Price = () => {
 
                         </div>
 
-                        <div className="price-card max-w-sm rounded-2xl overflow-hidden shadow-lg bg-neutral-900 border-2 border-green-500 px-6 flex flex-col justify-center">
+                        <div className="price-card max-w-sm rounded-2xl overflow-hidden shadow-lg bg-neutral-900 border-2 border-green-500 py-6 px-6 flex flex-col justify-center">
                             {/* <img className="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains"> */}
 
                             <div className="px-2">
-                                <h2 className="card-title text-center text-3xl sm:text4xl md:text-5xl lg:text-5xl font-bold mb-1 uppercase">НА 3 МЕСЯЦА</h2>
+                                <h2 className="card-title text-center text-3xl sm:text4xl md:text-5xl lg:text-5xl font-bold mb-1 uppercase pt-4">НА 3 МЕСЯЦА</h2>
                                 <p className="text-center uppercase text-3xl mb-10">
                                     1500р
                                 </p>
@@ -198,7 +198,7 @@ export const Price = () => {
                             </div>
 
                         </div>
-
+                        
                     </div>
 
                 </div>

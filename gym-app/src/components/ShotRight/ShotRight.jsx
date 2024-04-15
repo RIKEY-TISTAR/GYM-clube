@@ -5,7 +5,7 @@ import Check from '/public/assets/images/shot/check.png';
 
 export const ShotRight = () => {
     return (
-        <section className='shot my-28'>
+        <section className='shot my-28' id='three-link'>
             <div className="container mx-auto ">
 
                 <div className="shot-inner">
