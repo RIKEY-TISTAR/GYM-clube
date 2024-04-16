@@ -12,8 +12,10 @@ const axiosClient = axios.create({
 // API - запросы
 const getPrise = () => axiosClient.get('/priseces?populate=*');
 
+const createForms = (data) => axiosClient.post('/forms', data);
 
 
 export default {
   getPrise,
+  createForms,
 }

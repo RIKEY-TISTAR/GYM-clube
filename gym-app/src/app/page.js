@@ -18,7 +18,7 @@ const page = () => {
     <ShotLeft/>
     {/* <TimeTable/> */}
     <Price/>
-    {/* <Form/> */}
+    <Form/>
     </>
   )
 }
