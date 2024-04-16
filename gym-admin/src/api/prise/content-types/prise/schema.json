@@ -20,10 +20,6 @@
       "type": "string",
       "required": true
     },
-    "benefits": {
-      "type": "string",
-      "required": true
-    },
     "benef": {
       "type": "component",
       "repeatable": true,

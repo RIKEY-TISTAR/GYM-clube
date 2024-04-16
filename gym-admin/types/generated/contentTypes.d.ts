@@ -399,7 +399,6 @@ export interface ApiPrisePrise extends Schema.CollectionType {
   attributes: {
     title: Attribute.String & Attribute.Required;
     prise: Attribute.String & Attribute.Required;
-    benefits: Attribute.String & Attribute.Required;
     benef: Attribute.Component<'ui.benefits', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
