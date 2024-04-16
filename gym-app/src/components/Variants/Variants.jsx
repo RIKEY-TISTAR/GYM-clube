@@ -5,7 +5,7 @@ import VariantsGymGuy2 from '/public/assets/images/variants/gym-2.jpg';
 
 export const Variants = () => {
     return (
-        <section className='variants' id='two-link'>
+        <section className='variants my-10' id='two-link'>
             <div className="container mx-auto ">
 
                 <div className="variants-inner flex flex-col justify-center items-center">

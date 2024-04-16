@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "priseces",
+  "info": {
+    "singularName": "prise",
+    "pluralName": "priseces",
+    "displayName": "Цена",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "prise": {
+      "type": "string",
+      "required": true
+    },
+    "benefits": {
+      "type": "string",
+      "required": true
+    },
+    "benef": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.benefits"
+    }
+  }
+}
